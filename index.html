@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style\main.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="images\svg\logo.svg" alt="logo"> UpDate 
+        </a>
+        <nav class="header__links">
+            <ul class="header__links-list">
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Teachers</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <a href="#">En</a>
+            <a href="#">Sign In</a>
+            <a href="#">Trial free</a>
+        </nav>
+    </header>
+    <main class ="main__class">
+        <section class="offer__section">
+            <div class="offer__content">      
+                <h1 class = "offer__content__title">Explore thousands of hands-on creative classes.</h1>
+                <p class="offer__content-text">
+                    Start learning for free
+                </p>
+                <button class="offer__content-btn"> Choose a cource </button>
+                <p class="offer__content-percent"> <b>50%</b> </p>
+                <p name="btn_choose_cource" class="offer__content-timer"> <b>24 Days <time>17:44:16</time> </b></p>
+            </div>
+            <div class="offer__words">
+                <ul class="offer__words-list">
+                    <il>Photographer</il>
+                    <il>Designer</il>
+                    <il>Programmer</il>
+                    <il>Animator</il>
+                    <il>Illustrator</il>
+                    <il>Marketer</il>
+                </ul>
+                <p><img src="images\png\man.png" alt="man">
+                </p>
+            </div>
+        </section>
+        <section class="learn__section">
+            <div class="learn__text">
+                <h2 class="learn__title">What you will learn</h2>
+                <p class ="learn__description">Up-to-date knowledge from recognized market experts for beginners and practitioners</p>
+                <p class ="learn__description">On the platform, you can gain knowledge on current topics and
+                    in-demand skills. All courses are aimed at practice: we monitor the relevance of the material and help with employment and internship</p>
+                
+            </div>
+            <div class ="learn__counter-item">
+                <p class ="learn__counter-number">56</p>
+                <p class="learn__counter-description">Courses</p>
+            </div>
+            <div class ="learn__counter-item">
+                <p class ="learn__counter-number">108</p>
+                <p class="learn__counter-description">Curators</p>
+            </div>
+            <div class ="learn__counter-item">
+                <p class ="learn__counter-number">3 723</p>
+                <p class="learn__counter-description">Graduates</p>
+            </div>
+        </section>
+        <section class="discover__section">
+            <h2 class="discover__title">
+                Discover Lifelong Learning
+            </h2>
+            <ul class="discover__list">
+                <li>
+                    <button name ="btn_popular" class="discover__button">
+                        Popular 
+                    </button>
+                </li>
+                <li>
+                    <button name ="btn_animation" class="discover__button">
+                        Animation
+                    </button>
+                </li>
+                <li>
+                    <button name ="btn_design" class="discover__button">
+                        Design
+                    </button>
+                </li>
+                <li>
+                    <button name ="btn_illustration" class="discover__button">
+                        Illustration
+                    </button>
+                </li>
+                <li>
+                    <button name ="btn_programming" class="discover__button">
+                        Programming
+                    </button>
+                </li>
+                <li>
+                    <button name ="btn_ptoto_film" class="discover__button">
+                        Photo & Film
+                    </button>
+                </li>
+                <li>
+                    <button name ="btn_marketing" class="discover__button">
+                        Marketing
+                    </button>
+                </li>
+            </ul>
+            <a href="#">
+                See more <img src="images\svg\arrow.svg" alt="arrow right">
+            </a>
+            <div class="discover__cards">
+                <article class="discover__cards-item">
+                    <img src="images\rect_images\image Sales marketing.jpg" alt="Sales Marketing">
+                    <h3 class="discover__cards-item-title">Sales Marketing</h3>
+                    <p class="discover__cards-item__lentgs">6 months</p>
+                </article>
+                <article class="discover__cards-item">
+                    <img src="images\rect_images\Image data analytics.jpg" alt="Data analytics">
+                    <h3 class="discover__cards-item-title">Data analytics</h3>
+                    <p class="discover__cards-item__lentgs">9 months</p>
+                </article>
+                <article class="discover__cards-item">
+                    <img src="images\rect_images\Image design art.jpg" alt="Design art">
+                    <h3 class="discover__cards-item-title">Design art</h3>
+                    <p class="discover__cards-item__lentgs">4 months</p>
+                </article>
+                <article class="discover__cards-item">
+                    <img src="images\rect_images\image Animation.jpg" alt="Animation ">
+                    <h3 class="discover__cards-item-title">Animation </h3>
+                    <p class="discover__cards-item__lentgs">8 months</p>
+                </article>
+            </div>
+        </section>
+        <section class="help-form__section">
+            <div class="help-form__text">
+                <h2 class="help-form__title">
+                    Can't find a suitable program?
+                </h2>
+                <p class="help-form__description">We will help you with the choice!</p>
+            </div>
+            <form action="https://fom.in.ua/echo">
+                <label>
+                    Name
+                    <input type="text" name="name" placeholder="Name" required>
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="email" placeholder="Email" required>
+                </label>
+                <button name ="btn_help" class="find-program__button">
+                    Help me
+                </button>
+            </form>
+        </section>   
+    </main>
+    <footer class="footer__class">
+        <div>
+            <a href="index.html">
+                <img src="images\svg\logo.svg" alt="logo">
+                UpDate
+            </a>
+            <a href="mailto:support@update.com">support@update.com</a>
+            <a href="tel:12136771024">+1 (213) 677 10 24</a>
+        </div>
+        <div class="sitemap">
+            <h6 class="sitemap__title">Courses</h6>
+            <ul class="sitemap__list">
+                <li><a href="#">Animation</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Illustration</a></li>
+                <li><a href="#">Programming</a></li>
+                <li><a href="#">Photo & Film</a></li>
+                <li><a href="#">Marketing</a></li>
+            </ul>
+        </div>
+        <div class="sitemap">
+            <h6 class="sitemap__title">Teachers</h6>
+            <ul class="sitemap__list">
+                <li><a href="#"></a>Teachers</li>
+                <li><a href="#"></a>Become a Teacher</li>
+            </ul>
+        </div>
+        <div class="sitemap">
+            <h6 class="sitemap__title">Information</h6>
+            <ul class="sitemap__list">
+                <li><a href="#"></a>Blog</li>
+                <li><a href="#"></a>About us</li>
+                <li><a href="#"></a>FAQ</li>
+            </ul>
+        </div>
+        <div class="sitemap">
+            <h6 class="sitemap__title">En</h6>
+            <ul class="sitemap__list">
+                <li><a href="#"></a>English</li>
+                <li><a href="#"></a>French</li>
+                <li><a href="#"></a>Russian</li>
+            </ul>
+        </div>
+        <div class = "sitemap__policy">
+            <p>Policy privacy</p>
+            <p>Copyright 2022. All rights reserved</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
