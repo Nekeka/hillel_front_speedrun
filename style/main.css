@@ -1,4 +1,162 @@
 /*проверка, работает ли*/
-div {
-    background-color: red;
+ body{
+    background: #EFEFF2;
+    margin: 0;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif; 
+ }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 0 0;
+}
+
+.container{
+    width: 1440px;
+    margin:0 auto;
+}
+.header__links-list
+{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600
+}
+.button__box{
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+ 
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.05px;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.link{
+    color: #19191C;
+    text-decoration: none;
+}
+.button__link{
+    color: #19191C;
+    text-decoration: none;
+}
+.button__btn{
+    background-color: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+}
+.sitemap__title{
+    color: #FBFBFC;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-decoration: none;  
+}
+
+.sitemap__list-item{
+    color: #EFEFF2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    flex-wrap: nowrap; 
+    
+}
+
+.sitemap-info__logo{
+    color: #FBFBFC;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-decoration: none;
+}
+.sitemap-info__item{
+    color: #FBFBFC;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    text-decoration: none;
+}
+.sitemap__policy-item{
+    color: #6D6D77;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    padding: 30px; /*магическое число, не знаю как правильно*/
+    
+}
+
+.sitemap__list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+    gap: 12px;
+       
+}
+
+.container__footer{
+    background-color:#19191C ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sitemap{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    
+}
+.footer__class{
+    width: 1440px;
+    margin:0 auto;
+    display: flex;
+    gap: 200px;
+    padding: 0;
+    
+}
+
+
+.sitemap-info{
+    margin-bottom: 63px;
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    
+}
+
+.sitemap-info__logo{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.79px;
+    gap: 12px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
